@@ -1,0 +1,82 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 350px; 
+        }
+
+        .bigRoundPicture {
+            display: block;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        .inputLabel {
+            
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-size: 10pt;
+            margin-left: -280px;
+        }
+
+        .inputField {
+            font-family:"Times New Roman";
+            border: 1px solid rgb(200, 200, 200);
+            display: block;
+            padding: 5px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .login {
+            font-family:"Times New Roman";
+            color: white;
+            background-color: rgb(73, 144, 73);
+            border: 1px solid rgb(200, 200, 200);
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+
+        .rememberMe {
+            font-family: "Times New Roman";
+            margin-bottom: 20px;
+            margin-left: -240px;
+        }
+
+        .moreOptions {
+            background-color: rgb(232, 230, 230);
+            border: 1px inset rgb(231, 231, 231);
+            width: 100%;
+        }
+
+        .cancel {
+            font-family:"Times New Roman";
+            color: white;
+            background-color: rgb(240, 32, 32);
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 5px;
+            width: 70px;
+            margin-top: 17px;
+            margin-bottom: 17px;
+            padding: 5px;
+            margin-left: -180px;
+        }
+
+        .forgotPass {
+            float: right;
+            font-family: "Arial";
+            font-size: 9pt;
+            margin-top: 25px;
+        }
